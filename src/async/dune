@@ -1,0 +1,4 @@
+(library
+  (name osc_async)
+  (public_name osc-async)
+  (libraries async osc))
