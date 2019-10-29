@@ -6,7 +6,7 @@ bug-reports: "https://github.com/johnelse/ocaml-osc/issues"
 dev-repo: "git+https://github.com/johnelse/ocaml-osc"
 build: [
   [ "dune" "build" "-p" name "-j" jobs ]
-  [ "dune" "runtest" "test/lwt"] {with-test}
+  [ "dune" "runtest" "test/async"] {with-test}
 ]
 
 depends: [
